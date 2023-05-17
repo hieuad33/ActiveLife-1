@@ -6,7 +6,7 @@
     android:background="@drawable/background"
 
     android:orientation="vertical"
-    tools:context=".home.mealFragment">
+    tools:context="in.project.Activelife.home.mealFragment">
 
 
     <LinearLayout
@@ -31,6 +31,7 @@
                 android:background="@drawable/yoga_deit" />
 
             <Button
+                android:visibility="gone"
                 android:id="@+id/yoga1"
                 android:layout_width="350dp"
                 android:layout_height="150dp"
@@ -38,6 +39,7 @@
                 android:background="@drawable/yoga_deit" />
 
             <Button
+                android:visibility="gone"
                 android:id="@+id/byoga1"
                 android:layout_width="350dp"
                 android:layout_height="150dp"

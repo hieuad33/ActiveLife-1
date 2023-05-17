@@ -8,31 +8,17 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/yogologo"
-        app:layout_constraintBottom_toTopOf="@id/intro_img"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-      />
-
     <ImageView
         android:id="@+id/intro_img"
         android:layout_width="wrap_content"
         android:layout_height="230dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@id/intro_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/img1"
-        />
+        tools:srcCompat="@drawable/banner" />
 
     <TextView
         android:id="@+id/intro_description"

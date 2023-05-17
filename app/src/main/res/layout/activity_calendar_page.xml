@@ -10,14 +10,14 @@
     android:paddingTop="0dp"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".more.Calendar_page">
+    tools:context="in.project.Activelife.more.Calendar_page">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:background="#f3c623"
+        android:background="@color/background"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"

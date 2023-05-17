@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@drawable/splash"
-    tools:context=".mainpage.MainActivity">
+    tools:context="in.project.Activelife.mainpage.MainActivity">
 
     <ImageView
         android:id="@+id/appsplash"

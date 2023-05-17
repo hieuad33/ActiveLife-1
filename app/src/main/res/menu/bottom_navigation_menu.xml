@@ -11,7 +11,7 @@
         android:title="Meal" />
 
     <item android:id="@+id/navigation_Workout"
-        android:icon="@drawable/workout"
+        android:icon="@drawable/exercise1"
         android:title="Workout" />
 
     <item android:id="@+id/navigation_More"
