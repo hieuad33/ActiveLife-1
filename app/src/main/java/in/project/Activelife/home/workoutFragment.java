@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import in.project.Activelife.Exercise.view.ExerciseMoreActive;
 import in.project.Activelife.exer.SecondActivity;
 import in.project.Activelife.exer.SecondActivity2;
 import in.project.Activelife.R;
@@ -39,6 +40,15 @@ public class workoutFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, SecondActivity2.class);
+                startActivity(intent);
+            }
+        });
+
+
+        view.findViewById(R.id.btmore).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ExerciseMoreActive.class);
                 startActivity(intent);
             }
         });

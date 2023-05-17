@@ -25,6 +25,9 @@
         android:roundIcon="@drawable/iconlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Exercise.view.ExerciseMoreActive"/>
+
 
 
         <activity android:name=".Diet.proteins_page" />

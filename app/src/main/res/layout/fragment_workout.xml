@@ -200,7 +200,27 @@
                         />
 
                 </LinearLayout>
+                <TextView
+                    android:layout_marginStart="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:padding="5.0dp"
+                    android:text="More Exercise"
+                    android:textColor="#ff000000"
+                    android:textSize="20.0dp"
+                    android:textStyle="bold"
+                    />
+                <Button
 
+                    android:layout_gravity="center"
+                    android:id="@+id/btmore"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/btn"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:textColor="#FFF"/>
 
 
             </LinearLayout>
